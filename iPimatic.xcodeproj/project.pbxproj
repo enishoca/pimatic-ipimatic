@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88E8A26D1D328358004CC933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8A26C1D328358004CC933 /* AppDelegate.swift */; };
+		88E8A2771D328358004CC933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E8A2751D328358004CC933 /* LaunchScreen.storyboard */; };
+		88E8A2821D328359004CC933 /* iPimaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8A2811D328359004CC933 /* iPimaticTests.swift */; };
+		88E8A28D1D328359004CC933 /* iPimaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8A28C1D328359004CC933 /* iPimaticUITests.swift */; };
+		88E8A2A61D32899E004CC933 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8A2A31D32899E004CC933 /* SettingsViewController.swift */; };
+		88E8A2A71D32899E004CC933 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8A2A41D32899E004CC933 /* MainViewController.swift */; };
+		88E8A2A81D32899E004CC933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E8A2A51D32899E004CC933 /* Main.storyboard */; };
+		88EB019F1D32BD390029C089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EB019E1D32BD390029C089 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88E8A27E1D328358004CC933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E8A2611D328358004CC933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E8A2681D328358004CC933;
+			remoteInfo = iPimatic;
+		};
+		88E8A2891D328359004CC933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E8A2611D328358004CC933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E8A2681D328358004CC933;
+			remoteInfo = iPimatic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88E8A2691D328358004CC933 /* iPimatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPimatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E8A26C1D328358004CC933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88E8A2761D328358004CC933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88E8A2781D328358004CC933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E8A27D1D328358004CC933 /* iPimaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPimaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E8A2811D328359004CC933 /* iPimaticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPimaticTests.swift; sourceTree = "<group>"; };
+		88E8A2831D328359004CC933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E8A2881D328359004CC933 /* iPimaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPimaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E8A28C1D328359004CC933 /* iPimaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPimaticUITests.swift; sourceTree = "<group>"; };
+		88E8A28E1D328359004CC933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E8A2A31D32899E004CC933 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		88E8A2A41D32899E004CC933 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		88E8A2A51D32899E004CC933 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		88EB019E1D32BD390029C089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88E8A2661D328358004CC933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E8A27A1D328358004CC933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E8A2851D328359004CC933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E8A2601D328358004CC933 = {
+			isa = PBXGroup;
+			children = (
+				88E8A26B1D328358004CC933 /* iPimatic */,
+				88E8A2801D328358004CC933 /* iPimaticTests */,
+				88E8A28B1D328359004CC933 /* iPimaticUITests */,
+				88E8A26A1D328358004CC933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88E8A26A1D328358004CC933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E8A2691D328358004CC933 /* iPimatic.app */,
+				88E8A27D1D328358004CC933 /* iPimaticTests.xctest */,
+				88E8A2881D328359004CC933 /* iPimaticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E8A26B1D328358004CC933 /* iPimatic */ = {
+			isa = PBXGroup;
+			children = (
+				88EB019E1D32BD390029C089 /* Assets.xcassets */,
+				88E8A26C1D328358004CC933 /* AppDelegate.swift */,
+				88E8A2751D328358004CC933 /* LaunchScreen.storyboard */,
+				88E8A2A31D32899E004CC933 /* SettingsViewController.swift */,
+				88E8A2A41D32899E004CC933 /* MainViewController.swift */,
+				88E8A2A51D32899E004CC933 /* Main.storyboard */,
+				88E8A2781D328358004CC933 /* Info.plist */,
+			);
+			path = iPimatic;
+			sourceTree = "<group>";
+		};
+		88E8A2801D328358004CC933 /* iPimaticTests */ = {
+			isa = PBXGroup;
+			children = (
+				88E8A2811D328359004CC933 /* iPimaticTests.swift */,
+				88E8A2831D328359004CC933 /* Info.plist */,
+			);
+			path = iPimaticTests;
+			sourceTree = "<group>";
+		};
+		88E8A28B1D328359004CC933 /* iPimaticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88E8A28C1D328359004CC933 /* iPimaticUITests.swift */,
+				88E8A28E1D328359004CC933 /* Info.plist */,
+			);
+			path = iPimaticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E8A2681D328358004CC933 /* iPimatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E8A2911D328359004CC933 /* Build configuration list for PBXNativeTarget "iPimatic" */;
+			buildPhases = (
+				88E8A2651D328358004CC933 /* Sources */,
+				88E8A2661D328358004CC933 /* Frameworks */,
+				88E8A2671D328358004CC933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPimatic;
+			productName = iPimatic;
+			productReference = 88E8A2691D328358004CC933 /* iPimatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88E8A27C1D328358004CC933 /* iPimaticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E8A2941D328359004CC933 /* Build configuration list for PBXNativeTarget "iPimaticTests" */;
+			buildPhases = (
+				88E8A2791D328358004CC933 /* Sources */,
+				88E8A27A1D328358004CC933 /* Frameworks */,
+				88E8A27B1D328358004CC933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E8A27F1D328358004CC933 /* PBXTargetDependency */,
+			);
+			name = iPimaticTests;
+			productName = iPimaticTests;
+			productReference = 88E8A27D1D328358004CC933 /* iPimaticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88E8A2871D328359004CC933 /* iPimaticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E8A2971D328359004CC933 /* Build configuration list for PBXNativeTarget "iPimaticUITests" */;
+			buildPhases = (
+				88E8A2841D328359004CC933 /* Sources */,
+				88E8A2851D328359004CC933 /* Frameworks */,
+				88E8A2861D328359004CC933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E8A28A1D328359004CC933 /* PBXTargetDependency */,
+			);
+			name = iPimaticUITests;
+			productName = iPimaticUITests;
+			productReference = 88E8A2881D328359004CC933 /* iPimaticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88E8A2611D328358004CC933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pimatic.org;
+				TargetAttributes = {
+					88E8A2681D328358004CC933 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					88E8A27C1D328358004CC933 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88E8A2681D328358004CC933;
+					};
+					88E8A2871D328359004CC933 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88E8A2681D328358004CC933;
+					};
+				};
+			};
+			buildConfigurationList = 88E8A2641D328358004CC933 /* Build configuration list for PBXProject "iPimatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88E8A2601D328358004CC933;
+			productRefGroup = 88E8A26A1D328358004CC933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E8A2681D328358004CC933 /* iPimatic */,
+				88E8A27C1D328358004CC933 /* iPimaticTests */,
+				88E8A2871D328359004CC933 /* iPimaticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E8A2671D328358004CC933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E8A2771D328358004CC933 /* LaunchScreen.storyboard in Resources */,
+				88EB019F1D32BD390029C089 /* Assets.xcassets in Resources */,
+				88E8A2A81D32899E004CC933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E8A27B1D328358004CC933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E8A2861D328359004CC933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E8A2651D328358004CC933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E8A26D1D328358004CC933 /* AppDelegate.swift in Sources */,
+				88E8A2A71D32899E004CC933 /* MainViewController.swift in Sources */,
+				88E8A2A61D32899E004CC933 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E8A2791D328358004CC933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E8A2821D328359004CC933 /* iPimaticTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E8A2841D328359004CC933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E8A28D1D328359004CC933 /* iPimaticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88E8A27F1D328358004CC933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E8A2681D328358004CC933 /* iPimatic */;
+			targetProxy = 88E8A27E1D328358004CC933 /* PBXContainerItemProxy */;
+		};
+		88E8A28A1D328359004CC933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E8A2681D328358004CC933 /* iPimatic */;
+			targetProxy = 88E8A2891D328359004CC933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88E8A2751D328358004CC933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E8A2761D328358004CC933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88E8A28F1D328359004CC933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88E8A2901D328359004CC933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88E8A2921D328359004CC933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPimatic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pimatic.iPimatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88E8A2931D328359004CC933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPimatic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pimatic.iPimatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88E8A2951D328359004CC933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iPimaticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pimatic.iPimaticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPimatic.app/iPimatic";
+			};
+			name = Debug;
+		};
+		88E8A2961D328359004CC933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iPimaticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pimatic.iPimaticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPimatic.app/iPimatic";
+			};
+			name = Release;
+		};
+		88E8A2981D328359004CC933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iPimaticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pimatic.iPimaticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iPimatic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88E8A2991D328359004CC933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iPimaticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pimatic.iPimaticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iPimatic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88E8A2641D328358004CC933 /* Build configuration list for PBXProject "iPimatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E8A28F1D328359004CC933 /* Debug */,
+				88E8A2901D328359004CC933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E8A2911D328359004CC933 /* Build configuration list for PBXNativeTarget "iPimatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E8A2921D328359004CC933 /* Debug */,
+				88E8A2931D328359004CC933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E8A2941D328359004CC933 /* Build configuration list for PBXNativeTarget "iPimaticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E8A2951D328359004CC933 /* Debug */,
+				88E8A2961D328359004CC933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E8A2971D328359004CC933 /* Build configuration list for PBXNativeTarget "iPimaticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E8A2981D328359004CC933 /* Debug */,
+				88E8A2991D328359004CC933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88E8A2611D328358004CC933 /* Project object */;
+}
