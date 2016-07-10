@@ -2,8 +2,9 @@
 //  MainViewController:.swift
 //  iPimatic
 //
+//  MIT License
 //  Created by Enis Hoca on 7/10/16.
-//  Copyright © 2016 pimatic.org. All rights reserved.
+//  Copyright © 2016 Enis Hoca (enishoca@outlook.com). All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 //  and associated documentation files (the "Software"), to deal in the Software without restriction,

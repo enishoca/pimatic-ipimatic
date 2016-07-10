@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883396A01D32D3AC0058AE8E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8833969F1D32D3AC0058AE8E /* README.md */; };
+		883396A21D32D52F0058AE8E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 883396A11D32D52F0058AE8E /* LICENSE */; };
 		88E8A26D1D328358004CC933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8A26C1D328358004CC933 /* AppDelegate.swift */; };
 		88E8A2771D328358004CC933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E8A2751D328358004CC933 /* LaunchScreen.storyboard */; };
 		88E8A2821D328359004CC933 /* iPimaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8A2811D328359004CC933 /* iPimaticTests.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8833969F1D32D3AC0058AE8E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		883396A11D32D52F0058AE8E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88E8A2691D328358004CC933 /* iPimatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPimatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E8A26C1D328358004CC933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88E8A2761D328358004CC933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		88E8A2601D328358004CC933 = {
 			isa = PBXGroup;
 			children = (
+				883396A11D32D52F0058AE8E /* LICENSE */,
+				8833969F1D32D3AC0058AE8E /* README.md */,
 				88E8A26B1D328358004CC933 /* iPimatic */,
 				88E8A2801D328358004CC933 /* iPimaticTests */,
 				88E8A28B1D328359004CC933 /* iPimaticUITests */,
@@ -234,6 +240,7 @@
 			files = (
 				88E8A2771D328358004CC933 /* LaunchScreen.storyboard in Resources */,
 				88EB019F1D32BD390029C089 /* Assets.xcassets in Resources */,
+				883396A21D32D52F0058AE8E /* LICENSE in Resources */,
 				88E8A2A81D32899E004CC933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				88E8A26D1D328358004CC933 /* AppDelegate.swift in Sources */,
 				88E8A2A71D32899E004CC933 /* MainViewController.swift in Sources */,
+				883396A01D32D3AC0058AE8E /* README.md in Sources */,
 				88E8A2A61D32899E004CC933 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
